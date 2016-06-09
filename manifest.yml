@@ -1,0 +1,10 @@
+applications:
+- path: JavaCloudantApp.war
+  memory: 512M
+  instances: 1
+  domain: izzisnap.com
+  name: 0906testSB
+  host: 0906testSB
+  disk_quota: 1024M
+  services:
+  - 0906testSB-cloudantNoSQLDB
